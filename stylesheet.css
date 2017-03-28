@@ -1,0 +1,29 @@
+header{
+	background-image: url("https://placeholdit.imgix.net/~text?txtsize=133&txt=1600%C3%97770&w=1600&h=770");
+	height: 770px;
+	display: block;
+}
+
+.parallax{
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+	text-align: center;
+}
+
+p{
+	font-size: 17px;
+}
+
+.row{
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+form{
+	
+}
