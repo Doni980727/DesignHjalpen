@@ -1,5 +1,6 @@
 header{
-	background-image: url("https://placeholdit.imgix.net/~text?txtsize=133&txt=1600%C3%97770&w=1600&h=770");
+	/* background-image: url("https://placeholdit.imgix.net/~text?txtsize=133&txt=1600%C3%97770&w=1600&h=770"); */
+	background-image: url('img/luis_llerena_unsplash.jpg');
 	height: 770px;
 	display: block;
 }
@@ -25,5 +26,5 @@ p{
 }
 
 form{
-	
+
 }
