@@ -4,23 +4,32 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>Design Hjälpen</title>
+	<title>Designhjälpen</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script src="script.js"></script>
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="icon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="icon/manifest.json">
+	<link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="icon/favicon.ico">
+	<meta name="msapplication-config" content="icon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 
 </head>
 
 <body>
 
 	<!-- Header -->
-
 	<header class="navbar-fixed-top parallax">
 
 		<div>
 
-
+			
 
 		</div>
 
@@ -36,17 +45,10 @@
 
 				<h1 class="title">Om oss</h1>
 				<br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing
+					elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+					dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 			</div>
 
@@ -54,47 +56,51 @@
 
 		<div class="row">
 
+
 			<div class="col-md-4"></div>
 
 			<div class="col-md-8">
 
 				<form class="form-horizontal">
 
-					<div class="form-group">
-						<label for="exampleInputName2" class="col-sm-2 control-label">Förnamn</label>
-						<div class="col-sm-4">
-							<input type="text" name="firstname" class="form-control" id="exampleInputName2" placeholder="Dino">
-						</div>
+			<form class="form-horizontal">
+
+
+				<div class="form-group">
+					<label for="inputFirstname" class="col-sm-2 control-label">Förnamn</label>
+					<div class="col-sm-4">
+						<input type="text" name="firstname" class="form-control" id="inputFirstname" placeholder="Dino">
 					</div>
+				</div>
 
-					<div class="form-group">
-						<label for="exampleInputName2" class="col-sm-2 control-label">Efternamn</label>
-						<div class="col-sm-4">
-							<input type="text" name="lastname" class="form-control" id="exampleInputName2" placeholder="Felarca">
-						</div>
+				<div class="form-group">
+					<label for="inputLastname" class="col-sm-2 control-label">Efternamn</label>
+					<div class="col-sm-4">
+						<input type="text" name="lastname" class="form-control" id="inputLastname" placeholder="Felarca">
 					</div>
+				</div>
 
-					<div class="form-group">
-						<label for="exampleInputName2" class="col-sm-2 control-label">Ort</label>
-						<div class="col-sm-4">
-							<input type="text" name="city" class="form-control" id="exampleInputName2" placeholder="Umeå">
-						</div>
+				<div class="form-group">
+					<label for="inputCity" class="col-sm-2 control-label">Ort</label>
+					<div class="col-sm-4">
+						<input type="text" name="city" class="form-control" id="inputCity" placeholder="Umeå">
 					</div>
+				</div>
 
-					<div class="form-group">
-						<label for="inputEmail3" class="col-sm-2 control-label">Mail</label>
-						<div class="col-sm-4">
-							<input type="text" name="email" class="form-control" id="inputEmail3" placeholder="xxxx@xxxx.xxx">
-						</div>
+				<div class="form-group">
+					<label for="inputEmail" class="col-sm-2 control-label">Mail</label>
+					<div class="col-sm-4">
+						<input type="text" name="email" class="form-control" id="inputEmail" placeholder="dino@mail.com">
 					</div>
+				</div>
 
-					<button class="btn btn-default" id="in">Skicka in!</button>
+				<button class="btn btn-default" id="in">Skicka in!</button>
 
-				</form>
-
-			</div>
+			</form>
 
 		</div>
+
+	</div>
 
 	</div>
 
