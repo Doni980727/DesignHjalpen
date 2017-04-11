@@ -3,9 +3,12 @@ header{
 	background-image: url('img/luis_llerena_unsplash.jpg');
 	height: 770px;
 	display: block;
+	text-align: center;
+	padding-top: 11%;
 }
-header div{
-
+header div img{
+	width: 100%;
+	height: 100%;
 }
 
 .parallax{
