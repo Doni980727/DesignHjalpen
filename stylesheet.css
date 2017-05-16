@@ -57,3 +57,7 @@ form{
 .form-grouop{
     
 }
+
+label{
+    text-align: left;
+}
