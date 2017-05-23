@@ -1,3 +1,26 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "db_designhjalpen";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+$sql = "INSERT INTO input (inputFirstname, inputLastname, inputEmail, inputCity, inputOrgname, inputUrl, inputDesc)
+VALUES ('$_POST[inputFirstname]', '$_POST[inputLastname]', '$_POST[inputEmail]', '$_POST[inputCity]', '$_POST[inputOrgname]', '$_POST[inputUrl]', '$_POST[inputDesc]')";
+
+if ($conn->query($sql) === TRUE) {
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
+
 
 <html lang="sv">
 
@@ -120,6 +143,7 @@
                 </div>
 			</form>
 
+    </div>
 		
 
 	</div>
